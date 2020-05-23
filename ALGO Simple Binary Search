@@ -1,0 +1,13 @@
+int func(int L,int R,int a[],int k)
+{
+    while(L<=R)
+    {
+    int mid=(L+R)/2;
+    if(a[mid]==k)
+        return mid;
+    if(k>a[mid])
+        L=mid+1;
+    else R=mid-1;
+    }
+    return -1;
+}
