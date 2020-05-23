@@ -1,3 +1,5 @@
 Absolute value in c++ (stdlib.h)
 -for integer: abs(x)
 -for float and double: fabs(x) 
+
+binary search is only applicable on sorted arrays
