@@ -8,3 +8,7 @@ A monotonic function ( eg increasing, decreasing, non-increasing, non-decreasing
  eg=> arr={1,3,3,3,4,5,6,7,7,7,8,9,9}
 ans=x if f(x)>=k and f(x-1)<k (non decreasing) 
  
+TO CONVERT NUMBER TO STRING C++
+stringstream ss;
+    ss << i;
+    string s=ss.str();
