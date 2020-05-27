@@ -12,3 +12,7 @@ TO CONVERT NUMBER TO STRING C++
 stringstream ss;
     ss << i;
     string s=ss.str();
+    
+for sorting characters of a string 
+#include<algorithm>
+std::sort(a.begin(), a.end());
