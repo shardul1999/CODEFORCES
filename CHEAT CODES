@@ -16,3 +16,6 @@ stringstream ss;
 for sorting characters of a string 
 #include<algorithm>
 std::sort(a.begin(), a.end());
+
+REVERSE A STRING 
+reverse(str.begin(), str.end());
