@@ -19,3 +19,7 @@ std::sort(a.begin(), a.end());
 
 REVERSE A STRING 
 reverse(str.begin(), str.end());
+
+stack<int> s;
+s.push();
+s.pop();
