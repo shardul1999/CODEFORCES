@@ -24,3 +24,5 @@ stack<int> s;
 s.push();
 s.pop();
 
+2-D array in python
+s = [list(map(int, input().split())) for _ in range(3)]
