@@ -1,2 +1,2 @@
 COMPETITIVE PROGRAMMING
-CODEFORCES: Completed 41 questions. 11 am 1/6/20 
+CODEFORCES: Completed 42 questions. 1 am 1/6/20 
