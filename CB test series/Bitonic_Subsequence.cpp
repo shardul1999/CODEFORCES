@@ -1,3 +1,6 @@
+//TIME COMPLEXITY: nested for loop => O(n^2)
+//SPACE COMPLEXITY: created arrays of size n => O(n)
+
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 using namespace __gnu_pbds;
