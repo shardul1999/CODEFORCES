@@ -1,3 +1,5 @@
+math.h => x=pow(2,4);
+  
 converting string to int
  int stringtointeger(string s)
  {
