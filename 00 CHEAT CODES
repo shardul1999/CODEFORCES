@@ -1,3 +1,16 @@
+converting string to int
+ int stringtointeger(string s)
+ {
+     int ans=0;
+     int p=1;
+     for(int i=s.size()-1;i>=0;i--)
+     {
+         ans+=(str[i]-'0')*p;
+         p*=10;
+     }
+     return ans;
+ }
+
 Absolute value in c++ (stdlib.h)
 -for integer: abs(x)
 -for float and double: fabs(x) 
