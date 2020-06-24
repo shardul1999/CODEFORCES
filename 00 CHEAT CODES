@@ -1,3 +1,14 @@
+ headerfile: #include<cctype> 
+cpp: toupper(s[i]), tolower(s[i]), isupper(s[i]), islower(s[i]) , isdigit(s[i])
+cpp: ispunct(s[i]) detecting punctuation characters:  !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+cpp: iscntrl(s[i]) The iscntrl() function in C++ checks if the given character is a control character or not.
+     By default, the characters with the codes from 0x00 to 0x1F and 0x7F are considered control characters.
+similarly in cpp:-
+    isblank(s[i]) /isspace(s[i])
+    isaplha(s[i])
+    isxdigit(c)   if the given character is a hexadecimal character or not.
+    isprint()     function checks if the given character is printable or not. only digits, alphabets, space and punctuation characters are printable.
+    
 py: tolower(), toupper(), lower(), upper()
 cpp: math.h => x=pow(2,4);
   
