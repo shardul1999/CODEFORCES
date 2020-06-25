@@ -1,4 +1,9 @@
- headerfile: #include<cctype> 
+HWAT IS Contiguous sub arrays?
+   The difference between sub array and contiguous sub arrays is based on indexing.
+   Contiguous sub arrays must have consecutive indexes i.e., {5,4} is contiguous sub array as they have indexes that are consecutive (0,1) .
+   {5,3} cannot be contiguous as the indexes are non-consecutive (0,2)
+
+headerfile: #include<cctype> 
 cpp: toupper(s[i]), tolower(s[i]), isupper(s[i]), islower(s[i]) , isdigit(s[i])
 cpp: ispunct(s[i]) detecting punctuation characters:  !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 cpp: iscntrl(s[i]) The iscntrl() function in C++ checks if the given character is a control character or not.
