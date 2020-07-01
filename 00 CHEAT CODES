@@ -1,3 +1,13 @@
+NO. OF ZEROS IN A FACTORIAL:- 
+we'll count the number of 5 occurs in the factorial. 
+   ALGORITHM:
+      int maxi=0; 
+      for(int i=1;;i++) 
+      { 
+      if(n/(pow(5,i))<1) break;
+      maxi+=n/(pow(5,i));
+      }
+      
 WHAT IS Contiguous sub arrays?
    The difference between sub array and contiguous sub arrays is based on indexing.
    Contiguous sub arrays must have consecutive indexes i.e., {5,4} is contiguous sub array as they have indexes that are consecutive (0,1) .
