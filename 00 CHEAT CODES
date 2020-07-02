@@ -1,3 +1,9 @@
+Fibonacci Series:
+                recursion will give exponential time complexity:  fun(n)=fun(n-1)+fun(n-2);
+               Alternate:
+                        using DP: O(N): Time Complexity
+                      
+
 PRIME NUMBERS:
         better but not the best method: 
            iterating from 2 to root(N) yes if there exists a number which divides N completely.
