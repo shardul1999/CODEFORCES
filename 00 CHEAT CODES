@@ -1,4 +1,24 @@
-Sieve of Eratosthenes:
+PRIME NUMBERS:
+        better but not the best method: 
+           iterating from 2 to root(N) yes if there exists a number which divides N completely.
+          TIME COMPLEXITY: O(N.ROOT(N)) may get TLE.
+        Sieve of Eratosthenes(Fastest method): p=array[100000]
+            void prime_sieve(int *p)
+            {
+                for(int i=3;i<100000;i+=2)
+                        p[i]=1;
+                    for(int i=3;i<100000;i+=2)
+                    {
+                        if(p[i]==1)
+                        {
+                            for(int j=i*i;j<100000;j=j+i)
+                                p[j]=0;
+                        }
+                    }
+            p[0]=0;
+            p[1]=0;
+            p[2]=1;
+            }
 
 binary search is only applicable on sorted arrays
     -values of the array gives a non decreasing graph
@@ -11,6 +31,7 @@ LCM:
     RELATION: GCD*LCM = A*B
 
 Greatest Common Divisor:
+            Brute Force: inefficient approach: itrating 1 to min(a,b) and the maximum number which divides the both is GCD.
             
             EUCLID's Algorithm:
                         
