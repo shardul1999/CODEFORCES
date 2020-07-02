@@ -1,25 +1,28 @@
+Greatest Common Divisor:
+            cout<<__gcd(a,b);
+
 COUNTING NUMBER OF SET BITS ( n= decimal)
-      int ans=0;
-      while(n>0)
-      {
-         ans+= n&1;
-         n=n>>1;
-      }
-      cout<<ans;
-  Time complexity for ^ : it'll iterate until we get the last bit(technically the first bit)
-                           In any number N the maximum bits can be: log(N)+1  hence worst case will be O(log(N)) time
-                           
-      ALTERANTE(FAST)
             int ans=0;
             while(n>0)
             {
-                  n = n&(n-1);  // REMOVES THE LAST SET BIT  I.E 9&8 ==> 1001&100 = 1000 ( it will remove set bits from right to left )
-                  ans++;
+               ans+= n&1;
+               n=n>>1;
             }
-            
-       ALTRENATE
-        
-        __builtin_popcount(n)
+            cout<<ans;
+        Time complexity for ^ : it'll iterate until we get the last bit(technically the first bit)
+                                 In any number N the maximum bits can be: log(N)+1  hence worst case will be O(log(N)) time
+
+            ALTERANTE(FAST)
+                  int ans=0;
+                  while(n>0)
+                  {
+                        n = n&(n-1);  // REMOVES THE LAST SET BIT  I.E 9&8 ==> 1001&100 = 1000 ( it will remove set bits from right to left )
+                        ans++;
+                  }
+
+             ALTRENATE
+
+              __builtin_popcount(n)
         
 NO. OF ZEROS IN A FACTORIAL:- 
 we'll count the number of 5 occurs in the factorial. 
