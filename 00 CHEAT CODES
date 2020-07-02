@@ -1,5 +1,13 @@
+LCM:
+    RELATION: GCD*LCM = A*B
+
 Greatest Common Divisor:
-            cout<<__gcd(a,b);
+            
+            EUCLID's Algorithm:
+                        
+                        
+            Alternate:
+                        cout<<__gcd(a,b);
 
 COUNTING NUMBER OF SET BITS ( n= decimal)
             int ans=0;
