@@ -1,3 +1,12 @@
+COUNTING NUMBER OF SET BITS ( n= decimal)
+      int ans=0;
+      while(n>0)
+      {
+         ans+= n&1;
+         n=n>>1;
+      }
+      cout<<ans;
+
 NO. OF ZEROS IN A FACTORIAL:- 
 we'll count the number of 5 occurs in the factorial. 
    ALGORITHM:
