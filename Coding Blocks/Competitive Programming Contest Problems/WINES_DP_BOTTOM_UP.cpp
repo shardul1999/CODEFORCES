@@ -40,9 +40,9 @@ int solve(int *a,int n,int y)
     }
    for(int i=0;i<n;i++)
     {
-        for(int j=i+2;j<n;j++)
+        int j=i+2;
         {
-           dp[i][j]=max(a[i]+dp[i+1][j],a[j]+dp[i][j-1]);
+           dp[i][j]=max(a[i]*(n-2-i)+dp[i+1][j],a[j]*(n-2-i)+dp[i][j-1]);
         }
     }
     for(int i=0;i<n;i++)
