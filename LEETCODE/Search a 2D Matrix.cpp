@@ -37,7 +37,7 @@ int b_s_col(vector<vector<int>>& matrix,int row,int key)
         else
             high=mid-1;
     }
-    return -1;
+    return 0;
 }
 
 bool searchMatrix(vector<vector<int> >& matrix,int key)
@@ -47,10 +47,10 @@ bool searchMatrix(vector<vector<int> >& matrix,int key)
     if(rows>0)
         cols=matrix[0].size();
     if(rows==0 || cols==0)
-        return -1;
+        return 0;
     int possible_row=b_s_row(matrix,key);
     if(possible_row==-1)
-        return -1;
+        return 0;
     int possible_col=b_s_col(matrix,possible_row,key);
     return possible_col;
     
