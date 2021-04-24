@@ -34,9 +34,8 @@ int32_t main()
     //w(t)
     {
         int n;cin>>n;
-        int a[]={4,3,2,1};
-        sort(a,a+4);
-        cout<<"chal gya bc";
+        //for(int i=0;i<n;i++)
+        
     }
     return 0;
 }
